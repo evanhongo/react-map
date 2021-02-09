@@ -1,7 +1,12 @@
 {
-  "name": "react-map",
+  "name": "@evanhongo/react-map",
+  "homepage": "https://github.com/evanhongo/react-map",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evanhongo/react-map.git"
+  },
   "version": "1.0.0",
-  "description": "react-map React component",
+  "description": "React component",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -19,19 +24,26 @@
     "test:coverage": "nwb test-react --coverage",
     "test:watch": "nwb test-react --server"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@evanhongo/react-custom-component": "^1.2.0",
+    "@evanhongo/react-custom-hook": "^1.0.1",
+    "axios": "^0.21.1",
+    "leaflet": "^1.7.1",
+    "leaflet-draw": "^1.0.4",
+    "react-leaflet": "^3.0.5",
+    "react-leaflet-markercluster": "^3.0.0-rc1"
+  },
   "peerDependencies": {
-    "react": "16.x"
+    "react": "^17.0.1"
   },
   "devDependencies": {
     "nwb": "0.25.x",
+    "nwb-sass": "^0.10.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
   "author": "",
-  "homepage": "",
   "license": "MIT",
-  "repository": "",
   "keywords": [
     "react-component"
   ]

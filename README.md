@@ -1,16 +1,39 @@
 # react-map
 
-[![Travis][build-badge]][build]
 [![npm package][npm-badge]][npm]
-[![Coveralls][coveralls-badge]][coveralls]
 
-Describe react-map here.
+## Components
 
-[build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
-[build]: https://travis-ci.org/user/repo
+```js
+import { MarkerClusterGroupMap, DrawMap } from "@evanhongo/react-map";
+```
+
+<br />
+
+### **MarkerClusterGroupMap**
+
+|  Props  |   Type    | Description                                                  |
+| :-----: | :-------: | :----------------------------------------------------------- |
+|  width  | {string}  | Width of the map                                             |
+| height  | {string}  | Height of the map                                            |
+| markers | {arrayOf} | Array of Marker props e.g. `{ lat: '', lng: '', count: '' }` |
+
+<br />
+
+### **DrawMap**
+
+| Props  |   Type   | Description       |
+| :----: | :------: | :---------------- |
+| width  | {string} | Width of the map  |
+| height | {string} | Height of the map |
+
+## <br />
+
+---
+
+## Demo
+
+<br />
 
 [npm-badge]: https://img.shields.io/npm/v/npm-package.png?style=flat-square
 [npm]: https://www.npmjs.org/package/npm-package
-
-[coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
-[coveralls]: https://coveralls.io/github/user/repo
