@@ -12,8 +12,8 @@ import { MapContainer, TileLayer, useMap } from "react-leaflet";
 import MapSearch from "./MapSearch";
 import "leaflet-draw/dist/leaflet.draw.css";
 
-const center = [23, 122];
-const polygonColor = "#333";
+const CENTER = [23, 122];
+const POLYGON_COLOR = "#333";
 
 function DrawLayer({ setLocation }) {
   const map = useMap();
@@ -30,12 +30,12 @@ function DrawLayer({ setLocation }) {
         polygon: {
           allowIntersection: false,
           shapeOptions: {
-            color: polygonColor,
+            color: POLYGON_COLOR,
           },
         },
         rectangle: {
           shapeOptions: {
-            color: polygonColor,
+            color: POLYGON_COLOR,
           },
         },
         circlemarker: false,
@@ -145,7 +145,7 @@ export default function DrawMap({ width, height }) {
     <div style={{ width, height }}>
       {map && <MapSearch map={map} style={{ width }} />}
       <MapContainer
-        center={center}
+        center={CENTER}
         zoom={7}
         scrollWheelZoom={false}
         drawControlTooltips={true}

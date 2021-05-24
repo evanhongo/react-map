@@ -25,11 +25,12 @@
     "test:watch": "nwb test-react --server"
   },
   "dependencies": {
-    "@evanhongo/react-custom-component": "^1.2.0",
-    "@evanhongo/react-custom-hook": "^1.0.1",
+    "@evanhongo/react-custom-component": "^2.0.1",
+    "@evanhongo/react-custom-hook": "^1.0.2",
     "axios": "^0.21.1",
     "leaflet": "^1.7.1",
     "leaflet-draw": "^1.0.4",
+    "leaflet.heat": "^0.2.0",
     "react-leaflet": "^3.0.5",
     "react-leaflet-markercluster": "^3.0.0-rc1"
   },
