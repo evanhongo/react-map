@@ -1,0 +1,23 @@
+.resultGroup {
+  position: absolute;
+  margin: 5px 0 0 5px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 5px 15px;
+  overflow-y: auto;
+}
+
+.resultItem {
+  background: white;
+  opacity: 0.7;
+  padding: 0 10px;
+  font-size: 20px;
+  font-family: "Microsoft JhengHei";
+  font-weight: bold;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+.resultItem:hover {
+  background: pink;
+}
+
